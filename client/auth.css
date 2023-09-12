@@ -1,0 +1,26 @@
+
+
+.txt{
+   
+    color:white
+}
+#loader{
+    position: fixed;
+    display: none;
+   
+    top:40%;
+
+    width:10vh;
+    height:10vh;
+     border-radius: 50%;
+     margin-left: 43%;
+
+
+    background: -webkit-radial-gradient(bottom center, transparent 20%, orangered, darkorange);
+  
+    animation: load 0.5s linear infinite;
+}
+
+@keyframes load{
+    to{transform: rotate(360deg);}
+}
