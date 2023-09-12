@@ -1,0 +1,161 @@
+body{
+
+    margin:0
+}
+.phoneheader{
+    width: 100%;
+    position: fixed;
+    height:12%;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.723);
+    z-index: 3;
+}
+.showmenu{
+    display: block;
+    z-index: 112;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    right:1%;
+    margin-top:18%;
+    width:100%;
+    word-wrap: break-word;
+    height:80vw;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgb(55, 23, 1);
+    background:-webkit-linear-gradient(bottom right, rgba(61, 19, 5, 0.986), black);
+    background-image: url('../imgs/alk.jpg');
+    background-size: 100% 100%;
+    animation: show 1s ;
+
+}
+a.activeHome{
+    display: none;
+    width: 100%;    
+    height: 100%;
+   
+}
+
+@keyframes show{
+    from{margin-top: -80%;}
+}
+
+.showmenu a{
+    
+    font-variant: small-caps;
+    width: 50%;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color:rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.menulist{
+    display:none;
+    
+}
+
+.header{
+    width: 100%;
+    height:10%;
+    background-color: rgba(0, 0, 0, 0.511);
+    position: fixed;
+    padding:1px;
+    top:0;
+    z-index: 2;
+}
+.header a{
+    display: inline-block;
+    margin-left: 10%;
+}
+.phonemaintitle{
+    width: 50%;
+    height:100%;
+    margin-top: 2%;
+    margin-left: 1%;
+    display: inline-block;
+    color:white
+
+}
+.desktop_maintitle{
+    color:white;
+    text-align: center;
+    letter-spacing: 3px;
+
+    font-size:20px;
+   
+}
+
+.screen{
+    width:100%;
+    left:0;
+    z-index: 2;
+    margin-top:3%;
+    overflow: auto;
+    position: relative;
+  }
+  
+.hidehead{
+    display: none;
+}
+.pager{
+    position: fixed;
+    left:42%;
+    top:0
+}
+
+#headlinks{
+    width:70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    left:30%;
+    height: 100%;
+    z-index: 111;
+    top:0%
+}
+
+.headlinksimg{
+    width:45%
+}
+i{
+    position: absolute;
+    z-index: 111111;
+    margin-left:15.5%;
+    margin-top:5%;
+    color:red
+}
+
+.desktop-header{
+    width: 100%;
+    display: flex;
+}
+
+.desktop-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    position: fixed;
+    top:0;
+    left:20%
+}
+
+#switch{
+    position: fixed;
+    left:3%;
+    top:7.5%;
+    width:6%;
+    background: none;
+    border: none;
+}
+#switch img{
+    width: 100%;
+   
+    border-radius: 50%;
+}
